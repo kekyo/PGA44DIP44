@@ -148,6 +148,9 @@
 <wire x1="1.27" y1="10.16" x2="6.35" y2="10.16" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="10.16" x2="1.27" y2="11.43" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="11.43" x2="1.27" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-10.16" x2="-8.89" y2="-10.16" width="0.1524" layer="21"/>
 </package>
 <package name="DIP44">
 <description>&lt;b&gt;SMD DIL44&lt;/b&gt;&lt;p&gt;
@@ -305,7 +308,7 @@ dual in line package, body 13.52 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIP44" prefix="IC" uservalue="yes">
+<deviceset name="DIP44" prefix="CN" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PG44" x="0" y="0"/>
 </gates>
@@ -363,7 +366,7 @@ dual in line package, body 13.52 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PGA44" prefix="IC" uservalue="yes">
+<deviceset name="PGA44" prefix="CN" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PG44" x="0" y="0"/>
 </gates>
