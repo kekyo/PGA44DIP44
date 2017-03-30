@@ -23,4 +23,4 @@ TODO: Example solder photos.
 
 ## LICENSE
 
-* [Under CC BY-NC-SA 2.1](https://creativecommons.org/licenses/by-nc-sa/2.1/jp/deed.en)
+* [Under CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
