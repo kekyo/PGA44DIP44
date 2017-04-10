@@ -12,7 +12,7 @@
 TODO: Xilinx XC9536/XC9572 version.
 
 * Side-by-side pure converter version
-![Side-by-side pure converter version](PGA44DIP44_pure-converter.png)
+![Side-by-side pure converter version](pure-converter/Artwork.png)
 
 ## How to use
 
