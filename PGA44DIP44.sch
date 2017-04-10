@@ -195,39 +195,6 @@ dual in line package, body 13.52 mm</description>
 <text x="26.67" y="-7.6101" size="1.27" layer="21" rot="R90">22</text>
 <text x="26.67" y="2.5499" size="1.27" layer="21" rot="R90">23</text>
 </package>
-<package name="SJ">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="16"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="16"/>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-<package name="SJ_2">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="16"/>
-<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="16"/>
-<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="16"/>
-</package>
-<package name="JP1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="octagon"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="octagon"/>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
 <package name="PGA44">
 <description>&lt;b&gt;Pin Grid Array&lt;/b&gt;</description>
 <wire x1="-6.35" y1="10.16" x2="-1.27" y2="10.16" width="0.1524" layer="21"/>
@@ -339,46 +306,6 @@ dual in line package, body 13.52 mm</description>
 <pin name="L44" x="15.24" y="25.4" length="middle" rot="R180"/>
 <text x="-2.54" y="27.94" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="SJ_2">
-<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
-<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-</symbol>
-<symbol name="JP2E">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DIP44" prefix="CN" uservalue="yes">
@@ -432,58 +359,6 @@ dual in line package, body 13.52 mm</description>
 <connect gate="G$1" pin="L7" pad="7"/>
 <connect gate="G$1" pin="L8" pad="8"/>
 <connect gate="G$1" pin="L9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SJ" prefix="SJ" uservalue="yes">
-<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SJ2W" prefix="SJ" uservalue="yes">
-<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ_2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JP1E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="JP2E" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP1">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -562,30 +437,14 @@ dual in line package, body 13.52 mm</description>
 </classes>
 <parts>
 <part name="DIP44" library="PGA44DIP44" deviceset="DIP44" device="" value="DIP44"/>
-<part name="　" library="PGA44DIP44" deviceset="JP1E" device=""/>
-<part name="　　" library="PGA44DIP44" deviceset="SJ" device=""/>
-<part name="　　　" library="PGA44DIP44" deviceset="SJ2W" device=""/>
-<part name="　　　　" library="PGA44DIP44" deviceset="SJ" device=""/>
 <part name="PLCC44" library="PGA44DIP44" deviceset="PGA44" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="134.62" y="78.74" size="1.778" layer="91">XC9572
-VCCIO_VCCINT</text>
-<text x="76.2" y="60.96" size="1.778" layer="91">XC9572
-VCCINT_C1</text>
-<text x="76.2" y="38.1" size="1.778" layer="91">XC9572
-GND</text>
-<text x="142.24" y="50.8" size="1.778" layer="91">XC9572
-C2</text>
 </plain>
 <instances>
 <instance part="DIP44" gate="G$1" x="38.1" y="55.88"/>
-<instance part="　" gate="A" x="139.7" y="73.66"/>
-<instance part="　　" gate="1" x="73.66" y="60.96" rot="R270"/>
-<instance part="　　　" gate="G$1" x="73.66" y="38.1"/>
-<instance part="　　　　" gate="1" x="139.7" y="50.8" rot="R270"/>
 <instance part="PLCC44" gate="G$1" x="106.68" y="55.88"/>
 </instances>
 <busses>
@@ -728,12 +587,6 @@ C2</text>
 <wire x1="91.44" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="PLCC44" gate="G$1" pin="L10"/>
 </segment>
-<segment>
-<wire x1="88.9" y1="25.4" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="　　　" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="27.94" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="L11" class="0">
 <segment>
@@ -866,12 +719,6 @@ C2</text>
 <wire x1="91.44" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="PLCC44" gate="G$1" pin="L21"/>
 </segment>
-<segment>
-<wire x1="88.9" y1="50.8" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="53.34" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="　　" gate="1" pin="2"/>
-<wire x1="73.66" y1="53.34" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="L22" class="0">
 <segment>
@@ -895,12 +742,6 @@ C2</text>
 <wire x1="127" y1="30.48" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="PLCC44" gate="G$1" pin="L23"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="50.8" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="　　　" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="48.26" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L24" class="0">
@@ -998,11 +839,6 @@ C2</text>
 <wire x1="124.46" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="PLCC44" gate="G$1" pin="L31"/>
 </segment>
-<segment>
-<wire x1="58.42" y1="40.64" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="　　　" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="L32" class="0">
 <segment>
@@ -1014,24 +850,6 @@ C2</text>
 <wire x1="127" y1="53.34" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="PLCC44" gate="G$1" pin="L32"/>
-</segment>
-<segment>
-<wire x1="127" y1="68.58" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="　" gate="A" pin="1"/>
-<wire x1="139.7" y1="66.04" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="127" y1="60.96" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="　　　　" gate="1" pin="1"/>
-<wire x1="134.62" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="58.42" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="58.42" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
-<junction x="134.62" y="58.42"/>
-<wire x1="134.62" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="　　　　" gate="1" pin="2"/>
-<wire x1="139.7" y1="43.18" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L33" class="0">
@@ -1141,18 +959,6 @@ C2</text>
 <wire x1="124.46" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="PLCC44" gate="G$1" pin="L41"/>
 </segment>
-<segment>
-<wire x1="127" y1="66.04" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="　" gate="A" pin="2"/>
-<wire x1="142.24" y1="63.5" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="76.2" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="　　" gate="1" pin="1"/>
-<wire x1="73.66" y1="73.66" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="L42" class="0">
 <segment>
@@ -1195,10 +1001,4 @@ C2</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
