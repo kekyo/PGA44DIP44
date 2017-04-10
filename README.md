@@ -1,17 +1,24 @@
-# PGA44 to DIP44 socket PCB project using EAGLE CAD
+# PGA44 to DIP44 socket PCB project
 
 ## What is this?
 
 * This is very simple electric circuit diagram on EAGLE CAD.
 * This is my first trial for learn how to use EAGLE CAD.
-* PGA44 <--> DIP44 pin assignments are side by side.
 * I made for prototyping CPLD device (Xilinx XC95 series) on the breadboards.
 
-* This is sample routing result:
+## Artworks
 
-![SampleRoutingResult.png](SampleRoutingResult.png)
+* Xilinx XC9536/XC9572 version
+TODO: Xilinx XC9536/XC9572 version.
+
+* Side-by-side pure converter version
+![Side-by-side pure converter version](PGA44DIP44_pure-converter.png)
 
 ## How to use
+
+### Xilinx XC9536/XC9572 version
+
+TODO: More improving...
 
 * You have to solder PGA44-PLCC44 socket and DIP22 x 2 headers.
 * If your usage is side by side mapped pin conversion, you have to no additional works.
@@ -21,6 +28,21 @@
 
 TODO: Example solder photos.
 
+### Side-by-side pure converter version
+
+* You have to solder PGA44-PLCC44 socket and DIP22 x 2 headers.
+* Done!
+
+TODO: Example solder photos.
+
 ## LICENSE
 
 * [Under CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## History
+
+* 1.1
+  * Fatal misassignement fixed for PGA44.
+  * Split simple side-by-side pure converter version (see also pure-converter branch).
+* 1.0
+  * First public release.
